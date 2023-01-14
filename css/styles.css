@@ -689,9 +689,28 @@ img:hover {
 
 }
 
+.giffoni-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.gentille-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.romana-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.moreimg-title{
+    color: #F9FAF8;
+}
+
 .interior-img{
     border: solid #F9FAF8 5px;
-    max-width: 33%;
+    max-width: 100%;
     height: auto:
 }
 
@@ -876,10 +895,6 @@ img:hover {
         font-size: 90%;
     }
 
-    .mapcontainer{
-    
-        
-    }
 
     .map-title{
         font-size: 50%;
