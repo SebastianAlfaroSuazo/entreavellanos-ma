@@ -57,8 +57,8 @@ body{
 .top-links{
     display: flex;
     gap: 30px;
-    justify-content: center;
-    float: left;
+    justify-content: right;
+    
     font-size: 20px;
     padding: 20px;
 }
@@ -178,14 +178,14 @@ h1{
     flex-direction: column;
     
     gap: 3%;
-    width: auto
+    width: auto;
     
     float: left;
    
 }
 
 .box{
-    width: 40%
+    width: 100%;
     height: fit-content;
     border-radius: 20px;
     
@@ -193,9 +193,11 @@ h1{
     
 }
 
+
+
 .img{
     height: auto;
-    width: 90%;
+    width: 100%;
     margin: 5%;
     object-fit: fill;
     border-radius: 15px;
@@ -417,7 +419,7 @@ img:hover {
 
 .img-cabins{
     height: auto;
-    width: 600px;
+    width: 80%;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 15%;
@@ -711,9 +713,46 @@ img:hover {
 .interior-img{
     border: solid #F9FAF8 5px;
     max-width: 100%;
-    height: auto:
+    height: auto;
 }
 
+/*productos.html starts here*/
+
+.hazel-description{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 1.25%;
+    background-color: #8e554a;
+    font-size: 24px;   
+}
+
+.hazel-title{
+    text-align: center;
+    border: solid 3px #F9FAF8;
+    border-radius: 20px;
+    width: 50%;
+    padding: 5px;
+    margin-left: 25%;
+
+}
+
+.hazel.image{
+    
+}
+
+.img-cont-hazel{
+    
+
+}
+
+.img-hazelnut{
+   object-fit: cover;
+   width: 40%;
+   border: solid 5px #8e554a;
+   border-radius: 20px;
+   margin-left: 25%;
+}
 
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
@@ -1031,7 +1070,6 @@ img:hover {
      }
 
      .mail{
-        font
         font-size: 8px;
      
      }
